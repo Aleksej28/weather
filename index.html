@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Weather</title>
+    </head>
+    <body>
+        
+        <form id="form">
+            <div><input type="text" class="search" placeholder="Введите название города"/></div>
+            <div><input type="submit" value="Найти"/></div>
+        </form>
+
+        <div id="container">
+            <div class="main">
+                <h1></h1>
+                <div class="icon">
+                    <img id="icon" src="./img/icons/sun.svg" alt="icon" />
+                </div>
+            </div>
+
+            <div class="parametrs">
+                <div class="wind">
+                    <img id="wind" src="./img/icons/wind.svg" alt="wind" />
+                    <p>wind</p>
+                </div>
+                <div class="drop">
+                    <img id="drop" src="./img/icons/drop.svg" alt="drop" />
+                    <p>wind</p>
+                </div>
+                <div class="pressure">
+                    <img
+                        id="pressure"
+                        src="./img/icons/pressure.svg"
+                        alt="pressure"
+                    />
+                    <p>wind</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
